@@ -10,7 +10,7 @@
 JS9.Color = {};
 JS9.Color.CLASS = "JS9";      // class of plugins
 JS9.Color.NAME = "Color";     // name of this plugin
-JS9.Color.WIDTH = 512;        // width of light window
+JS9.Color.WIDTH = 1024;        // width of light window
 JS9.Color.HEIGHT = 140;       // height of light window
 JS9.Color.BASE = JS9.Color.CLASS + JS9.Color.NAME;
 JS9.Color.RUNMENU = true;     // does changing the menu execute run?

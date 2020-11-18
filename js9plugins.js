@@ -12167,7 +12167,7 @@ JS9.RegisterPlugin(JS9.Prefs.CLASS, JS9.Prefs.NAME, JS9.Prefs.init,
 JS9.ScaleLimits = {};
 JS9.ScaleLimits.CLASS = "JS9";      // class of plugins (1st part of div class)
 JS9.ScaleLimits.NAME = "Scale";     // name of this plugin (2nd part of div class)
-JS9.ScaleLimits.WIDTH = 512;	      // width of light window
+JS9.ScaleLimits.WIDTH = 1024;	      // width of light window
 JS9.ScaleLimits.HEIGHT = 400;	      // height of light window
 JS9.ScaleLimits.WIDTHOFFSET = 40;   // width offset where plot canvas starts
 JS9.ScaleLimits.HEIGHTOFFSET = 210; // height offset where plot canvas starts

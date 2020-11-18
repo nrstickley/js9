@@ -10,7 +10,7 @@
 JS9.Cube = {};
 JS9.Cube.CLASS = "JS9";  // class of plugins (1st part of div class)
 JS9.Cube.NAME = "Cube";  // name of this plugin (2nd part of div class)
-JS9.Cube.WIDTH = 512;	 // width of light window
+JS9.Cube.WIDTH = 1024;	 // width of light window
 JS9.Cube.HEIGHT = 240;	 // height of light window
 JS9.Cube.BASE = JS9.Cube.CLASS + JS9.Cube.NAME;
 
