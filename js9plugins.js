@@ -1603,7 +1603,7 @@ JS9.RegisterPlugin(JS9.Blend.CLASS, JS9.Blend.NAME, JS9.Blend.init,
 JS9.Blink = {};
 JS9.Blink.CLASS = "JS9";      // class of plugins (1st part of div class)
 JS9.Blink.NAME = "Blink";     // name of this plugin (2nd part of div class)
-JS9.Blink.WIDTH =  512;	  // width of light window
+JS9.Blink.WIDTH =  1024;	  // width of light window
 JS9.Blink.HEIGHT = 270;	  // height of light window
 JS9.Blink.BASE = JS9.Blink.CLASS + JS9.Blink.NAME;  // CSS base class name
 
@@ -2612,7 +2612,7 @@ JS9.RegisterPlugin(JS9.Cmaps.CLASS, JS9.Cmaps.NAME, JS9.Cmaps.init,
 JS9.Colorbar = {};
 JS9.Colorbar.CLASS = "JS9";      // class of plugins (1st part of div class)
 JS9.Colorbar.NAME = "Colorbar";  // name of this plugin (2nd part of div class)
-JS9.Colorbar.WIDTH =  512;	 // width of light window
+JS9.Colorbar.WIDTH =  1024;	 // width of light window
 JS9.Colorbar.HEIGHT = 40;	 // height of light window
 JS9.Colorbar.BASE = JS9.Colorbar.CLASS + JS9.Colorbar.NAME;
 // if TRUE, use psColors, otherwise use unscaled colorCells
@@ -2937,7 +2937,7 @@ JS9.RegisterPlugin(JS9.Colorbar.CLASS, JS9.Colorbar.NAME, JS9.Colorbar.init,
 JS9.Color = {};
 JS9.Color.CLASS = "JS9";      // class of plugins
 JS9.Color.NAME = "Color";     // name of this plugin
-JS9.Color.WIDTH = 512;        // width of light window
+JS9.Color.WIDTH = 1024;        // width of light window
 JS9.Color.HEIGHT = 140;       // height of light window
 JS9.Color.BASE = JS9.Color.CLASS + JS9.Color.NAME;
 JS9.Color.RUNMENU = true;     // does changing the menu execute run?
@@ -3477,7 +3477,7 @@ JS9.RegisterPlugin(JS9.Color.CLASS, JS9.Color.NAME,
 JS9.Console = {};
 JS9.Console.CLASS = "JS9";      // class of plugins (1st part of div class)
 JS9.Console.NAME = "Console";	// name of this plugin (2nd part of div class)
-JS9.Console.WIDTH =  512;	// width of light window
+JS9.Console.WIDTH =  1024;	// width of light window
 JS9.Console.HEIGHT = 300;	// height of light window
 
 // html used by the console plugin
@@ -3733,7 +3733,7 @@ JS9.RegisterPlugin("JS9", "Console", JS9.Console.init,
 JS9.Cube = {};
 JS9.Cube.CLASS = "JS9";  // class of plugins (1st part of div class)
 JS9.Cube.NAME = "Cube";  // name of this plugin (2nd part of div class)
-JS9.Cube.WIDTH = 512;	 // width of light window
+JS9.Cube.WIDTH = 1024;	 // width of light window
 JS9.Cube.HEIGHT = 240;	 // height of light window
 JS9.Cube.BASE = JS9.Cube.CLASS + JS9.Cube.NAME;
 
@@ -4593,7 +4593,7 @@ JS9.RegisterPlugin(JS9.Filters.CLASS, JS9.Filters.NAME,
 JS9.Imarith = {};
 JS9.Imarith.CLASS = "JS9";      // class of plugins (1st part of div class)
 JS9.Imarith.NAME = "Imarith";  // name of this plugin (2nd part of div class)
-JS9.Imarith.WIDTH =  512;	 // width of light window
+JS9.Imarith.WIDTH =  1024;	 // width of light window
 JS9.Imarith.HEIGHT = 170;	 // height of light window
 JS9.Imarith.BASE = JS9.Imarith.CLASS + JS9.Imarith.NAME;
 
@@ -6749,7 +6749,7 @@ JS9.RegisterPlugin(JS9.Mef.CLASS, JS9.Mef.NAME, JS9.Mef.init,
 JS9.Menubar = {};
 JS9.Menubar.CLASS = "JS9";
 JS9.Menubar.NAME = "Menubar";
-JS9.Menubar.WIDTH = JS9.WIDTH || 512;	// width of Menubar
+JS9.Menubar.WIDTH = JS9.WIDTH || 1024;	// width of Menubar
 JS9.Menubar.HEIGHT = "auto";		// height of Menubar
 
 // menu buttons in the menubar
@@ -12682,7 +12682,7 @@ JS9.RegisterPlugin(JS9.ScaleLimits.CLASS, JS9.ScaleLimits.NAME,
 JS9.Separate = {};
 JS9.Separate.CLASS = "JS9";       // class of plugins (1st part of div class)
 JS9.Separate.NAME = "Separate";   // name of this plugin (2nd part of div class)
-JS9.Separate.WIDTH =  512;	  // width of light window
+JS9.Separate.WIDTH =  1024;	  // width of light window
 JS9.Separate.HEIGHT = 336;	  // height of light window
 JS9.Separate.BASE = JS9.Separate.CLASS + JS9.Separate.NAME;  // CSS base class name
 
@@ -12984,7 +12984,7 @@ JS9.RegisterPlugin(JS9.Separate.CLASS, JS9.Separate.NAME, JS9.Separate.init,
 JS9.Statusbar = {};
 JS9.Statusbar.CLASS = "JS9";      // class of plugins (1st part of div class)
 JS9.Statusbar.NAME = "Statusbar"; // name of this plugin (2nd part of div class)
-JS9.Statusbar.WIDTH =  512;       // width of light window
+JS9.Statusbar.WIDTH =  1024;       // width of light window
 JS9.Statusbar.HEIGHT = 32;        // height of light window
 JS9.Statusbar.COLORWIDTH =  120;  // width of colorbar, if present
 JS9.Statusbar.COLORHEIGHT = 14;   // height of colorbar, if present
@@ -13169,7 +13169,7 @@ JS9.Statusbar.init = function(width, height){
     this.height = parseInt(this.divjq.css("height"), 10);
     // colorbar width stretches with statusbar
     this.colorwidth = parseInt(this.divjq.attr("data-colorbarWidth"), 10) ||
-	JS9.Statusbar.COLORWIDTH + Math.max(this.display.width - 512, 0);
+	JS9.Statusbar.COLORWIDTH + Math.max(this.display.width - 1024, 0);
     this.colorheight = parseInt(this.divjq.attr("data-colorbarHeight"), 10) ||
 	JS9.Statusbar.COLORHEIGHT;
     // clean plugin container
@@ -13865,7 +13865,7 @@ JS9.RegisterPlugin(JS9.Sync.CLASS, JS9.Sync.NAME, JS9.Sync.init,
 JS9.SyncUI = {};
 JS9.SyncUI.CLASS = "JS9";     // class of plugins (1st part of div class)
 JS9.SyncUI.NAME = "SyncUI";   // name of this plugin (2nd part of div class)
-JS9.SyncUI.WIDTH =  512;      // width of light window
+JS9.SyncUI.WIDTH =  1024;      // width of light window
 JS9.SyncUI.HEIGHT = 430;      // height of light window
 JS9.SyncUI.BASE = JS9.SyncUI.CLASS + JS9.SyncUI.NAME;  // CSS base class name
 
@@ -14329,12 +14329,12 @@ JS9.RegisterPlugin(JS9.SyncUI.CLASS, JS9.SyncUI.NAME, JS9.SyncUI.init,
 JS9.Toolbar = {};
 JS9.Toolbar.CLASS = "JS9";        // class of plugins (1st part of div class)
 JS9.Toolbar.NAME = "Toolbar";    // name of plugin (2nd part of div class)
-JS9.Toolbar.WIDTH =  512;	 // width of light window
-JS9.Toolbar.HEIGHT = 36;         // height of light window
+JS9.Toolbar.WIDTH =  1024;	 // width of light window
+JS9.Toolbar.HEIGHT = 80;         // height of light window
 JS9.Toolbar.BASE = JS9.Toolbar.CLASS + JS9.Toolbar.NAME;
 JS9.Toolbar.IMAGEWIDTH  = 24;
 JS9.Toolbar.IMAGEHEIGHT = 24;
-JS9.Toolbar.TOOLBARHEIGHT = 36;
+JS9.Toolbar.TOOLBARHEIGHT = 80;
 // hacky offsets to place tooltips nicely
 // why are lighwins different from static elements?
 JS9.Toolbar.TOOLTIPX = 30;

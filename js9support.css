@@ -1913,6 +1913,7 @@ span.JS9SyncUINoFile {
     border-width: 0px;
     margin: 0px 0px 2px 0px;
     padding: 0px;
+    height:80px;
 }
 
 .JS9ToolbarButtonDiv{
@@ -1929,11 +1930,15 @@ span.JS9SyncUINoFile {
 }
 
 .JS9ToolbarImageButton:focus {
-    outline: 2px dotted grey;
+    outline: 1px dotted grey;
 }
 
 .JS9ToolbarImageButton:hover {
-    border: 1px solid grey;
+    outline: 1px solid grey;
+}
+
+.JS9ToolbarImageButton:active {
+    outline: 2px dotted grey;
 }
 
 .JS9ToolbarButtonButton{
@@ -1951,12 +1956,17 @@ span.JS9SyncUINoFile {
 }
 
 .JS9ToolbarButtonButton:hover {
-  border: 1px solid grey;
+  outline: 1px solid grey;
 }
 
 .JS9ToolbarButtonButton:focus {
-    outline: 2px dotted grey;
+    outline: 1px dotted grey;
 }
+
+.JS9ToolbarButtonButton:active {
+	    outline: 2px solid grey;
+}
+    
 
 .JS9ToolbarTooltip{
     position: relative;

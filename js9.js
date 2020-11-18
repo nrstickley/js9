@@ -33,8 +33,8 @@ JS9.ABOUT = `JS9 ${JS9.VERSION}: astronomical image display everywhere\nEric Man
 
 // internal defaults (not usually changed by users)
 JS9.DEFID = "JS9";		// default JS9 display id
-JS9.WIDTH = 512;	        // width of js9 canvas
-JS9.HEIGHT = 512;		// height of js9 canvas
+JS9.WIDTH = 1024;	        // width of js9 canvas
+JS9.HEIGHT = 750;		// height of js9 canvas
 JS9.ANON = "Anonymous";		// name to use for images with no name
 JS9.PREFSFILE = "js9Prefs.json";// prefs file to load
 JS9.WORKERFILE = "js9worker.js";// js9 web worker file to load
